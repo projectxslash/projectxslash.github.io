@@ -15,7 +15,7 @@ html, body {
     padding: 0;
 }
 body {
-    background-color: #fff;
+    background-color: #7a858b;
     color: #2b2b2b;
     /*font-family: 'Cabin', sans-serif;*/
     font-family: 'Lato', sans-serif;
@@ -50,7 +50,7 @@ a, a:hover, a:focus, button:hover, button:focus {
     text-decoration: none;
 }
 a:focus ,a:hover{
-    color: #ff4157;
+    color: #eb1717;
 }
 ul{
     margin: 0;
@@ -81,7 +81,7 @@ ul{
     text-align: center;
 }
 .social-grid li a:hover{
-    color: #ff4157;
+    color: #ff001e;
 }
 .social-grid li + li{
     margin-left: 25px;
@@ -150,7 +150,7 @@ ul{
     padding: 35px 0;
 }
 #logo > a {
-    color: #ff4157;
+    color: #ff001e;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: -5px;
@@ -160,7 +160,7 @@ ul{
     font-size: 50px;
 }
 .book-now-btn {
-    background: #ff4157 none repeat scroll 0 0;
+    background: #ff001e none repeat scroll 0 0;
     border: medium none;
     color: #fff;
     font-size: 16px;
@@ -174,7 +174,7 @@ ul{
 }
 
 .cl-effect-10 a::before, .cl-effect-10 a.active::before {
-    background: #ff4157;
+    background: #ff001e;
     color: #fff;
     content: attr(data-hover);
     height: 100%;
@@ -307,7 +307,7 @@ ul{
     transition: all 0.2s ease-in-out 0s;
 }
 .gallery-image a.info:hover, .gallery-image a.info > i:hover{
-    color: #e01931;
+    color: #ff001e;
 }
 .overlay p {
     bottom: 0;
@@ -323,7 +323,7 @@ ul{
     color: #fff;
 }
 .overlay p a:hover{
-    color: #ff4157;
+    color: #ff001e;
 }
 .vacation-offer-bgbanner {
     background: rgba(0, 0, 0, 0) url("../images/vacation-banner.png") no-repeat scroll center center / cover ;
@@ -350,7 +350,7 @@ ul{
     text-transform: uppercase;
 }
 .vacation-offer-details .btn.btn-default {
-    background: #ff4157 none repeat scroll 0 0;
+    background: #ff001e none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -394,7 +394,7 @@ ul{
     text-transform: uppercase;
 }
 .product-desc-side h3::before {
-    background: #ff4157;
+    background: #ff001e;
     bottom: -1px;
     content: "";
     height: 2px;
@@ -417,8 +417,8 @@ ul{
     border-radius: 0;
 }
 .links > a:hover, .event-blog-details a.btn-default:hover{
-    background: #ff4157;
-    border-color: #ff4157;
+    background: #ff001e;
+    border-color: #ff001e;
     color: #fff;
 }
 .side-A .product-desc-side {
@@ -467,7 +467,7 @@ footer a{
     color: #fff;
 }
 .footer-contact-list i {
-    color: #ff4157;
+    color: #ff001e;
     float: left;
     margin-right: 10px;
 }
@@ -491,7 +491,7 @@ footer a{
     text-transform: capitalize;
 }
 .footer-links li.active a{
-    color: #ff4157;
+    color: #ff001e;
 }
 .footer-social-icon {
     margin-top: 40px;
@@ -530,7 +530,7 @@ footer a{
     border-radius: 0;
     border-style: solid solid solid none;
     border-width: 1px 1px 1px 0;
-    color: #ff4157;
+    color: #ff001e;
     background: #fff;
 }
 /*blog slider*/
@@ -569,7 +569,7 @@ footer a{
     padding-bottom: 10px;
 }
 .blog-view-box {
-    background: #ff4157 none repeat scroll 0 0;
+    background: #ff001e none repeat scroll 0 0;
     border-radius: 15px;
     color: #fff;
     margin-top: -15px;
@@ -599,8 +599,8 @@ footer a{
     width: 140px;
 }
 #myCarousel2 .carousel-indicators .active {
-    background-color: #ff4157;
-    border-color: #ff4157;
+    background-color: #ff001e;
+    border-color: #ff001e;
     width: 140px;
 }
 #myCarousel2 .carousel-indicators {
@@ -616,12 +616,12 @@ footer a{
     opacity: 1;
 }
 #myCarousel1 .carousel-indicators .active{
-    background: #ff4157;
-    border-color: #ff4157;
+    background: #ff001e;
+    border-color: #ff001e;
 }
 /*back to top*/
 #back-to-top {
-    background: #ff4157;
+    background: #ff001e;
     bottom: 40px;
     color: #fff;
     padding: 10px;
@@ -646,7 +646,7 @@ footer a{
     margin-top: -36px;
 }
 .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background: #ff4157 !important;
+    background: #ff001e !important;
 }
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #fff;
@@ -659,7 +659,7 @@ footer a{
     text-align: center;
 }
 .copyright > a{
-    color: #ff4157;
+    color: #ff001e;
     font-weight: 600;
     font-size: 18px;
 }
@@ -706,7 +706,7 @@ footer a{
     left: 0;
     top: 0;
     font-family: 'fontawesome';
-    color: #ff4157;
+    color: #ff001e;
     font-weight: 600;
 }
 .about-right span {
@@ -726,7 +726,7 @@ footer a{
     text-transform: capitalize;
 }
 .contact-left-block > h3 > span, .contact-form > h3 > span{
-    color: #ff4157;
+    color: #ff001e;
 }
 .contact-left-block > p {
     color: #000;
@@ -736,7 +736,7 @@ footer a{
     margin-bottom: 15px;
 }
 .contact-left-block > p i {
-    background: #ff4157 none repeat scroll 0 0;
+    background: #ff001e none repeat scroll 0 0;
     border-radius: 50%;
     color: #fff;
     height: 30px;
@@ -766,8 +766,8 @@ footer a{
     text-transform: uppercase;
 }
 .submit-btn:hover, .read-more-btn:hover{
-    background: #ff4157;
-    border-color: #ff4157;
+    background: #ff001e;
+    border-color: #ff001e;
     color: #fff;
 }
 .contact-form form textarea{
@@ -810,7 +810,7 @@ footer a{
     margin-bottom: 15px;
 }
 .user-info > a{
-    color: #ff4157;
+    color: #ff001e;
 }
 .user-info > a:hover{
     color: #333;
@@ -822,7 +822,7 @@ footer a{
     height: 140px;
 }
 .blog-list h4, .blog-list1 h4 {
-    border-bottom: 2px solid #ff4157;
+    border-bottom: 2px solid #ff001e;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -876,7 +876,7 @@ footer a{
 
 /*instafeed images*/
 #instafeed .likes {
-    background: rgba(255,68,87, 0.8) none repeat scroll 0 0;
+    background: #ff001e none repeat scroll 0 0;
     color: #ffffff;
     display: flex;
     flex-direction: column;
