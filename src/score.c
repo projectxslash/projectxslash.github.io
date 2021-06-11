@@ -5,7 +5,31 @@
 ** cd
 */
 
+//cherche le sujet les gars ont les sujet pardon je compte sur toi man
+
 #include "../include/too.h"
+
+int golf(int ac, char **av)
+{
+    if (ac != 3)
+        return (84);
+    char **s1 = twoo(av[1]), **s2 = twoo(av[2]);
+    int *tabint1 = tabint(s1), *tabint2 = tabint(s2);
+    int score = 0, fnl = 0;
+
+    for (int a = 0; tabint1[a]; a++) {
+        score = tabint2[a] - tabint1[a];
+        printf("Hole %d (Par %d): ", (a + 1), tabint1[a]);
+        tabint2[a] == 1 ? printf("Hole-in-one! (") : 0;
+        score_one(score);
+        fnl += score;
+        score_two(score);
+        score_sign(score);
+        tabint2[a] == 1 ? printf(")\n") : printf("\n"); }
+    score = 0;
+    final_score(tabint1, tabint2, score, fnl);
+    return (0);
+}
 
 void score_one(int score)
 {
