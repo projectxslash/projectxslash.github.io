@@ -58,31 +58,34 @@ int *tabint(char **two)
 
 void score_one(int score)
 {
-    score == 3 ? printf("Triple bogey") : 0;
-    score == 2 ? printf("Double bogey") : 0;
+    score == 3 ? printf("Birdie") : 0;
+    score == 2 ? printf("Par") : 0;
     score == 1 ? printf("Bogey") : 0;
-    score == 0 ? printf("Par") : 0;
+    score == 4 ? printf("Eagle") : 0;
+    score == 5 ? printf("+4") : 0;
     return ;
 }
 
 void score_two(int score)
 {
-    score == -1 ? printf("Birdie") : 0;
-    score == -2 ? printf("Eagle") : 0;
-    score == -3 ? printf("Albatros") : 0;
-    score == -4 ? printf("Condor") : 0;
+    score == 6 ? printf("Double bogey") : 0;
+    score == 7 ? printf("Hole-in-one (Eagle)") : 0;
+    score == 8 ? printf("Par") : 0;
+    score == 9 ? printf("+5") : 0;
     return ;
 }
 
 void score_sign(int score)
 {
-    if (score != 3 && score != 2 && score != 1 && score != 0 &&
-        score != -1 && score != -2 && score != -3 && score != -4) {
+    if (score != 9 && score != 8 && score != 7 && score != 6 &&
+        score != 5 && score != 4 && score != 3 && score != 2 &&
+        score != 1) {
         if (score < 0)
             printf("%d", score);
-        else printf("+%d", score); }
+        else printf("%d", score); }
     return ;
 }
+
 
 void final_score(int *tabint1, int *tabint2, int score, int fnl)
 {
@@ -99,7 +102,6 @@ void final_score(int *tabint1, int *tabint2, int score, int fnl)
     else printf("+%d\n", fnl);
     return ;
 }
-
 
 int main(int ac, char **av)
 {
