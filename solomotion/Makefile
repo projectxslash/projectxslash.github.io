@@ -11,7 +11,7 @@ OBJ	=	$(SRC:.c=.o)
 
 INC	=	-I ./include
 
-NAME	=	text_to_multi_tap
+NAME	=	golf_scorecard
 
 all:	$(NAME)
 
