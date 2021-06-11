@@ -99,3 +99,12 @@ void final_score(int *tabint1, int *tabint2, int score, int fnl)
     else printf("+%d\n", fnl);
     return ;
 }
+
+
+int main(int ac, char **av)
+{
+    int a = golf(ac, av);
+    if (a == 84)
+        return (84);
+    return (0);
+}
